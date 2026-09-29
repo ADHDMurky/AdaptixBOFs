@@ -1,0 +1,16 @@
+# Windows download metadata copied onto Linux filesystems.
+*:Zone.Identifier
+
+# Local editor, OS and Python cache files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+*~
+
+# Intentionally do not ignore _bin/*.o: the AXS scripts load these artifacts.
